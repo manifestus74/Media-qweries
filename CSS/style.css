@@ -1,0 +1,29 @@
+
+
+.box {
+    width: 350px;
+    height: 300px;
+    float: left;
+    background-color: rgb(0, 9, 54);
+    border: 1px solid rgb(40, 137, 222);
+}
+
+@media screen and (min-width: 860px) 
+
+{
+   .box {
+    background-color: red;
+    width: 300px;
+   } 
+}
+
+@media screen and (max-width: 450px) 
+{
+
+   .box {
+     background-color: yellow;
+     width: 300px;
+   }
+
+
+}
